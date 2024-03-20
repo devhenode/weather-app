@@ -86,12 +86,16 @@ body {
 #app {
   background-image: url('./assets/rainy.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
+  /* background-repeat: no-repeat; */
   transition: 0.4s;
 }
 
 #app.warm {
   background-image: url('./assets/warm.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 main {
